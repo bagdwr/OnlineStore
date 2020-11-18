@@ -294,4 +294,31 @@ main
 	width: 100%;
 	height: 80px;
 	background-color:#f10e34;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+.bannerSecondRow div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:  'Lato', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.bannerSecondRow div:nth-child(2){
+	margin:0px 85px 0px 85px;
+}
+.bannerSecondRow div h4{
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
