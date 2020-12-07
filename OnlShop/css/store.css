@@ -223,15 +223,11 @@ main
 #left
 {
 	width:300px;
-	background-color:black;
-	height: 100vh;
 	margin-top: 500px;
 }
 #right
 {
 	width:835px;
-	background-color: yellow;
-	height: 100vh;
 	margin-left: auto;
 }
 .banner
@@ -288,6 +284,11 @@ main
 	font-weight: bold;
 	background:transparent;
 	margin-top: 50px!important;
+	transition:0.3s;
+}
+.bannerFirstRow button:hover{
+	background-color: #fad393;
+
 }
 .bannerSecondRow
 {
@@ -314,8 +315,45 @@ main
 	font-weight: 500;
 }
 
-
-
+.leftSecond,.leftThird{
+	width: inherit;
+	height: 425px;
+	background-color: white;
+}
+.leftThird{
+	margin-top:30px;
+}
+.leftFourth{
+	width: inherit;
+	background-color: white;
+	margin-top:30px;
+	height: 265px;
+}
+.rightSecond{
+	width: inherit;
+	height: 425px;
+	background-color:white;
+	margin-top:45px;
+}
+.rightThird{
+    width: inherit;
+    height: 225px; 
+    margin-top:30px;
+    display: flex;
+}
+.rightThirdFirst,.rightThirdSecond{
+	width:400px;
+	background-color: white;
+}
+.rightThirdSecond{
+	margin-left: auto;
+}
+.rightFourth{
+	margin-top:30px;
+	width: inherit;
+	height: 425px;
+	background-color: white;
+}
 
 
 
